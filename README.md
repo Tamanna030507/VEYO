@@ -101,9 +101,9 @@ Score is computed from 5 weighted behavioral signals:
 | Layer | Technology |
 |-------|-----------|
 | Frontend | React + Vite |
-| Backend | Supabase (PostgreSQL + Realtime + Edge Functions) |
-| Auth | Supabase Auth (Phone OTP via SMS) |
-| AI | Anthropic Claude API (via Edge Function — key never in frontend) |
+| Backend | Firebase |
+| Auth | Firebase Auth (Phone OTP via SMS and Google Sign-in) |
+| AI | Google Gemini 1.5 Flash (via Edge Function — key never in frontend) |
 | Blockchain | Polygon EVM — Soulbound Token (ERC-721) |
 | Identity | W3C Verifiable Credentials spec |
 | Financial Data | Setu AA JSON spec (v1.1.2) |
@@ -126,4 +126,3 @@ sbt_tokens         -- worker_id, token_id, tx_hash, metadata
 
 ---
 
-## ⚡ Supabase Edge Functions
